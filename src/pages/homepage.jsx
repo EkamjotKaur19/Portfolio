@@ -24,6 +24,7 @@ import SEO from "../data/seo";
 import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+import Techstack from "../components/skill/skill";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -163,6 +164,8 @@ const Homepage = () => {
 								/>
 							</a>
 						</div>
+
+						<Techstack />
 
 						
 

@@ -37,6 +37,8 @@ const INFO = {
 			"Pursuing a comprehensive curriculum focused on computer science principles, algorithms, and software development",
 	},
 
+	skills: ['C++', 'SQL', 'Python', 'HTML', 'CSS', 'JS', 'React', 'Node', 'Express', 'MongoDB', 'Firebase', 'Firestore' ],
+
 	projects: [
 		{
 			title: "Dear Diary",
@@ -92,6 +94,8 @@ const INFO = {
 			link: "https://github.com/EkamjotKaur19/Data-Science/blob/main/CommentAnalysis.ipynb",
 		},
 	],
+
+	
 };
 
 export default INFO;

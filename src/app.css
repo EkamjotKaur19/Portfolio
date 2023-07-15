@@ -122,4 +122,36 @@
 	}
 }
 
+.tech-icons {
+	font-size: 4.5em;
+	margin: 15px;
+	padding: 10px;
+	opacity: 0.93;
+	width:30%;
+	border: 1.7px solid rgba(0, 0, 0, 0.637);
+	vertical-align: middle;
+	text-align: center !important;
+	border-radius: 5px !important;
+	display: table !important;
+	box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+	overflow: hidden !important;
+	transition: all 0.4s ease 0s !important;
+  }
 
+.skill{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 3%;
+}
+
+.skill-title {
+	width: 100% !important;
+	text-align: center;
+	justify-content: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+.skills{
+	margin-bottom: 5%;
+}

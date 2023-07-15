@@ -12,6 +12,7 @@ import SEO from "../data/seo";
 import abt from "../assets/abt.webp"
 
 import "./styles/about.css";
+import Techstack from "../components/skill/skill";
 
 const About = () => {
 	useEffect(() => {
@@ -67,6 +68,9 @@ const About = () => {
 									<Socials />
 								</div>
 							</div>
+						</div>
+						<div>
+							<Techstack />
 						</div>
 						<div className="about-socials-mobile">
 							<Socials />

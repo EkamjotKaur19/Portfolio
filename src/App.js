@@ -11,6 +11,7 @@ import Notfound from "./pages/404";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
+import Techstack from "./components/skill/skill";
 
 function App() {
 	useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
+				<Route path="/skill" element={<Techstack />} />
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/education" element={<Education />} />
 				<Route path="/contact" element={<Contact />} />
