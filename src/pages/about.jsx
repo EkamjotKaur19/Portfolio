@@ -9,6 +9,8 @@ import Socials from "../components/about/socials";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
+import abt from "../assets/abt.webp"
+
 import "./styles/about.css";
 
 const About = () => {
@@ -54,7 +56,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src={abt}
 											alt="about"
 											className="about-image"
 										/>

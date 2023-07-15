@@ -2,10 +2,10 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "2020-2024",
+		title: "University Institute of Engineering and Technology, Panjab University",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"B.E. Computer Science. Curreny CGPA: 9.66. Second Year Branch Topper and Scholarship Holder",
 		keywords: [
 			"The Benefits of Cloud Computing",
 			"Tharindu",
@@ -41,10 +41,10 @@ function article_1() {
 
 function article_2() {
 	return {
-		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		date: "2019-2020",
+		title: "DCM Presidency School, Ludhiana, Punjab",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
+			"Class XII. Percentage: 94.6. Stream Rank Holder 1",
 		style: ``,
 		keywords: [
 			"Artificial Intelligence in Healthcare",
@@ -60,6 +60,27 @@ function article_2() {
 	};
 }
 
-const myArticles = [article_1, article_2];
+function article_3() {
+	return {
+		date: "2017-2018",
+		title: "DCM Presidency School, Ludhiana, Punjab",
+		description:
+			"Class X. Percentage: 97.2. School Rank Holder 1",
+		style: ``,
+		keywords: [
+			"Artificial Intelligence in Healthcare",
+			"Tharindu",
+			"Tharindu N",
+			"Tharindu Nayanajith",
+		],
+		body: (
+			<React.Fragment>
+				<h1>Content of article 2</h1>
+			</React.Fragment>
+		),
+	};
+}
+
+const myArticles = [article_1, article_2, article_3];
 
 export default myArticles;

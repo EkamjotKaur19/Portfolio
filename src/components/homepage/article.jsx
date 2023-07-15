@@ -20,15 +20,6 @@ const Article = (props) => {
 					<div className="homepage-article-description">
 						{description}
 					</div>
-					<div className="homepage-article-link">
-						<Link to={link}>
-							Read article{" "}
-							<FontAwesomeIcon
-								style={{ fontSize: "10px" }}
-								icon={faChevronRight}
-							/>
-						</Link>
-					</div>
 				</div>
 			</div>
 		</React.Fragment>

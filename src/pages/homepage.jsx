@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faTwitter,
 	faGithub,
 	faStackOverflow,
 	faInstagram,
+	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import ekam from '../assets/ekam.webp'
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
@@ -72,11 +74,7 @@ const Homepage = () => {
 		<React.Fragment>
 			<Helmet>
 				<title>{INFO.main.title}</title>
-				<meta name="description" content={currentSEO.description} />
-				<meta
-					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
+				
 			</Helmet>
 
 			<div className="page-content">
@@ -104,7 +102,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src={ekam}
 											alt="about"
 											className="homepage-image"
 										/>
@@ -114,16 +112,6 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a>
 							<a
 								href={INFO.socials.github}
 								target="_blank"
@@ -135,12 +123,12 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
+								href={INFO.socials.leetcode}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
+									icon={faCode}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -151,6 +139,16 @@ const Homepage = () => {
 							>
 								<FontAwesomeIcon
 									icon={faInstagram}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.socials.linkedin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -166,9 +164,7 @@ const Homepage = () => {
 							</a>
 						</div>
 
-						<div className="homepage-projects">
-							<AllProjects />
-						</div>
+						
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
@@ -182,7 +178,7 @@ const Homepage = () => {
 											date={article().date}
 											title={article().title}
 											description={article().description}
-											link={"/article/" + (index + 1)}
+											link={"/education/" + (index + 1)}
 										/>
 									</div>
 								))}
@@ -191,6 +187,10 @@ const Homepage = () => {
 							<div className="homepage-works">
 								<Works />
 							</div>
+						</div>
+
+						<div className="homepage-projects">
+							<AllProjects />
 						</div>
 
 						<div className="page-footer">

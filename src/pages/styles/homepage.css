@@ -4,7 +4,6 @@
 	display: flex;
 	justify-content: left;
 	align-items: center;
-	padding-top: 130px;
 }
 
 .homepage-container {
@@ -37,6 +36,7 @@
 }
 
 .homepage-image-container {
+	margin-top:25%;
 	width: 370px;
 	height: 370px;
 }
@@ -44,7 +44,6 @@
 .homepage-image-wrapper {
 	overflow: hidden;
 	border-radius: 10%;
-	transform: rotate(3deg);
 }
 
 .homepage-image-wrapper img {

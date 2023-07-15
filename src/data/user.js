@@ -1,82 +1,95 @@
+import entice from "../assets/entice.png"
+import diary from "../assets/diary.png"
+import ecomm from "../assets/ecomm.png"
+import recipe from "../assets/recipe.png"
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Ekamjot Kaur",
+		name: "Ekamjot Kaur",
+		email: "ekamjot.chugh1004@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/EkamjotKaur19",
+		linkedin: "https://www.linkedin.com/in/ekamjot-kaur-70a440259/",
+		instagram: "https://www.instagram.com/ekamjot.kaur_19/",
+		leetcode: "https://leetcode.com/ekamjot_19/",
+		gfg: "https://auth.geeksforgeeks.org/user/ekamjotchugh1004",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "MERN Stack Web Developer, Data Science Enthusiast, Leetcoder.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am pursuing my B.E. in CSE at UIET, Panjab University. I am self-driven and constantly seeking for opportunities to learn and grow. I enjoy developing dynamic web applications using MERN Stack and have developed projects in this field. I am also enthusiastic about the field of Data Science and undertaking an internship in this domain. Additionally I have good command in C++ and Data Structures & Algorithms and honing my skills on platforms like Leetcode and GFG where I have solved 600+ such questions. My current CGPA is 9.66. I have excellent communication skills and actively looking for an internship in above mentioned fields"
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Ekamjot. I am from Ludhiana, Punjab. 4th year student at UIET, Panjab University",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+		"I am pursuing my B.E. in CSE at UIET, Panjab University. I am self-driven and constantly seeking for opportunities to learn and grow. I enjoy developing dynamic web applications using MERN Stack and have developed projects in this field. I am also enthusiastic about the field of Data Science and undertaking an internship in this domain. Additionally I have good command in C++ and Data Structures & Algorithms and honing my skills on platforms like Leetcode and GFG where I have solved 600+ such questions. My current CGPA is 9.66. I have excellent communication skills and actively looking for an internship in above mentioned fields",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Fueling Growth through Learing",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Pursuing a comprehensive curriculum focused on computer science principles, algorithms, and software development",
 	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Dear Diary",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"MERN Diary app with 4 CRUD functionalities. Fully responsive, coloured, customised notes, dialog boxes. Search bar and options to upload images and export content. User Authentication, Local Storage, Mailing facility implemented.",
+			logo :'https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png',
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.comhttps://main--notesekam.netlify.app/",
 		},
 
 		{
-			title: "Project 2",
+			title: "Let's Cook",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Integrated Edamam API to fetch recipes. Included search bar, filter-based search, pagination. Used Firebase and Firestore to authenticate and save recipes",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 3",
+			title: "EkasByEkam",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Developed user-friendly frontend website for personal Boutique using ReactJs. Created attractive component designs for Hero, Services, Pricing, Portfolio, Skills & Testimonials and usesd Framer-Motion for implementing animations",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://enticebyekam.netlify.app/",
 		},
 
 		{
-			title: "Project 4",
+			title: "Ecomm",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Designed an e-commerce site using ReactJs for frontend and dark-mode functionality. Employed NodeJs for backend functionality and MongoDb for storing products and user information.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://ekamecomm.netlify.app/",
 		},
 
 		{
-			title: "Project 5",
+			title: "Age Gender Detection",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Developed age gender detection model using image preprocessing, thorough research, DeepFace for creators demographic insights for a startup working with creator data",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/EkamjotKaur19/age_gender/blob/main/Age%26GenderDetection.ipynb",
+		},
+
+		{
+			title: "Comments Analysis",
+			description:
+				"Analysis on Instagram Comments. Performed text preprocessing and Lemmatization techniques. Employed Rake to extract key phrases and constructed a word cloud",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://github.com/EkamjotKaur19/Data-Science/blob/main/CommentAnalysis.ipynb",
 		},
 	],
 };
